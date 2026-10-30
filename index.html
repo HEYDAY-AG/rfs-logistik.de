@@ -206,7 +206,7 @@
  ]
 }</script>
 </head><body>
-<header><div class="w"><a class="logo" href="/" aria-label="RFS Startseite"><img src="/assets/img/RFS_Logo.svg" alt="RFS Rhineland Fulfillment Services, part of HEYDAY AG" width="180" height="40"></a>
+<header><div class="w"><a class="logo" href="/" aria-label="RFS Startseite"><img src="/assets/img/RFS_Logo_Kompakt.svg" alt="RFS Rhineland Fulfillment Services" width="111" height="40"></a>
 <nav aria-label="Hauptnavigation"><a href="#leistungen">Leistungen</a><a href="#anbindung">Anbindung</a><a href="#standort">Standort</a><a href="#referenzen">Referenzen</a><a href="#faq">FAQ</a></nav><a class="lang" href="/en/" hreflang="en">EN</a><a class="btn sm" href="#kontakt">Logistik Check vereinbaren</a></div></header><main>
 <section class="hero"><div class="w"><div><div class="kk">3PL Dienstleister am Niederrhein</div>
 <h1>Der 3PL für Händler, <span>die wachsen wollen.</span></h1><p class="lead">Wir lagern, packen und versenden für mittelständische Händler, Marken und Importeure, die den Handel beliefern und an Endkunden verkaufen. Damit Sie verkaufen und wir uns um den Rest kümmern.</p>
@@ -234,10 +234,16 @@
 <section class="alt contact" id="kontakt"><div class="w"><div><div class="kk">Kontakt</div><h2>Kommen Sie vorbei. <span>Sehen Sie, wo Ihre Ware liegt.</span></h2><p class="lead">Eine Stunde in Viersen: Halle ansehen, Ihre Ware, Ihr System und Ihre heutigen Kosten durchgehen. Danach bekommen Sie ein Angebot, das Sie mit Ihrer heutigen Lösung vergleichen können.</p>
 <div class="cdet"><div><small>Ansprechpartner</small><span>Pascal Wichelhaus</span></div><div><small>E-Mail</small><a href="mailto:office@rfs-logistik.de">office@rfs-logistik.de</a></div>
 <div><small>Telefon</small><span>+49 2162 890 8618</span></div><div><small>Adresse</small><span>Rhineland Fulfillment Services GmbH<br>Kampweg 18, 41751 Viersen</span></div><div><small>Gruppe</small><span>part of HEYDAY AG</span></div></div></div>
-<form action="https://formspree.io/f/xqppdbky" method="POST"><input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><div class="two"><label>Name<input name="name" required autocomplete="name"></label><label>Unternehmen<input name="firma" autocomplete="organization"></label></div>
+<form id="kf" action="https://formspree.io/f/xqppdbky" method="POST"><input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><div class="two"><label>Name<input name="name" required autocomplete="name"></label><label>Unternehmen<input name="firma" autocomplete="organization"></label></div>
 <div class="two"><label>E-Mail<input type="email" name="email" required autocomplete="email"></label><label>Telefon<input type="tel" name="tel" autocomplete="tel"></label></div>
 <label>Was lagern und versenden Sie heute?<textarea name="nachricht"></textarea></label>
-<button class="btn" type="submit">Logistik Check anfragen</button><small>Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben gemäß Datenschutzerklärung zu.</small></form></div></section></main>
-<footer><div class="w"><div><img src="/assets/img/RFS_Logo_Negativ.svg" alt="RFS" width="180" height="40" loading="lazy"><p style="color:#AEB6C2;margin-top:16px;max-width:360px">3PL Dienstleister am Niederrhein. Lager, Fulfillment und Versand für Händler, Marken und Importeure.</p></div>
+<button class="btn" type="submit">Logistik Check anfragen</button><small>Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben gemäß Datenschutzerklärung zu.</small>
+<div class="fmsg ok" role="status"><b>Danke, Ihre Anfrage ist da.</b>Wir melden uns zeitnah persönlich bei Ihnen.</div><div class="fmsg err" role="alert"><b>Das hat nicht geklappt.</b>Bitte versuchen Sie es noch einmal oder schreiben Sie an office@rfs-logistik.de.</div></form>
+<script>
+(function(){var f=document.getElementById('kf');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var btn=f.querySelector('button');btn.disabled=true;btn.textContent='Wird gesendet …';
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}).then(function(r){if(r.ok){f.classList.add('sent');f.reset();}else{throw new Error();}})
+.catch(function(){f.querySelector('.fmsg.err').style.display='block';btn.disabled=false;btn.textContent='Logistik Check anfragen';});});})();
+</script></div></section></main>
+<footer><div class="w"><div><img src="/assets/img/RFS_Logo_Kompakt_Negativ.svg" alt="RFS" width="111" height="40" loading="lazy"><p style="color:#AEB6C2;margin-top:16px;max-width:360px">3PL Dienstleister am Niederrhein. Lager, Fulfillment und Versand für Händler, Marken und Importeure.</p></div>
 <div><a href="#leistungen">Leistungen</a><br><a href="#anbindung">Anbindung</a><br><a href="#standort">Standort</a><br><a href="#referenzen">Referenzen</a><br><a href="#faq">FAQ</a></div><div>Rhineland Fulfillment Services GmbH<br>Kampweg 18<br>41751 Viersen<br><a href="mailto:office@rfs-logistik.de">office@rfs-logistik.de</a></div>
 <div class="bot"><span>© 2026 Rhineland Fulfillment Services GmbH · part of HEYDAY AG</span><span><a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></span></div></div></footer></body></html>
