@@ -1,0 +1,26 @@
+# RFS Rhineland Fulfillment Services GmbH
+
+> Die Rhineland Fulfillment Services GmbH (RFS) ist ein 3PL Dienstleister mit Lager in Viersen am Niederrhein. RFS übernimmt Wareneingang per Container, FTL und LTL, Lagerung, Kommissionierung, Versand an Handel und Endkunden sowie Retouren für mittelständische Händler, Marken und Importeure. Kundensysteme werden über FFN Connect angebunden, die Datenplattform des JTL Fulfillment Network. RFS ist Teil der HEYDAY AG.
+
+## Kerndaten
+- Firma: Rhineland Fulfillment Services GmbH (RFS), part of HEYDAY AG
+- Standort: Kampweg 18, 41751 Viersen, Nordrhein-Westfalen, Deutschland
+- Leistungen: Wareneingang (Container 20 und 40 Fuß, FTL, LTL, Kurier), Frachtorganisation, Lagerung (Palettenlager, Bodenfläche, Kleinfachlager), Pick und Pack mit Scanprüfung, Versand B2B und B2C, Retouren, Etikettieren, Sortimente nach Größenlauf
+- Zielgruppe: mittelständische Händler, Marken und Importeure mit B2B und B2C
+- Systeme: JTL WMS und JTL Shipping im Lager, Anbindung über FFN Connect (Amazon, Otto Market, eBay, Kaufland, Shopify, Shopware 6, WooCommerce, PrestaShop, Gambio, Squarespace, TikTok Shop, JTL Wawi, Billbee, Xentral, weclapp, Afterbuy, easybill, Odoo, TB.One)
+- Nicht im Angebot: Kühlware, gekühlte Lebensmittel
+- Kontakt: office@rfs-logistik.de
+
+## Häufige Fragen
+- Was ist ein 3PL Dienstleister? Ein 3PL (Third Party Logistics) übernimmt die Logistik eines Unternehmens als externer Dienstleister: Wareneingang, Lagerung, Kommissionierung, Versand und Retouren. RFS ist ein 3PL mit eigenem Lager in Viersen am Niederrhein.
+- Für wen eignet sich RFS? Für mittelständische Händler, Marken und Importeure, die sowohl den Handel (B2B) als auch Endkunden (B2C) beliefern und regelmäßiges Volumen haben. Kleinstversender mit sehr wenigen Aufträgen sind bei anderen Anbietern besser aufgehoben.
+- Welche Shop und ERP Systeme kann RFS anbinden? Über FFN Connect unter anderem Amazon, Otto Market, eBay, Kaufland, Shopify, Shopware 6, WooCommerce, PrestaShop, Gambio, Billbee, Xentral, weclapp, Afterbuy, easybill und Odoo. JTL Wawi direkt über das JTL Fulfillment Network.
+- Nimmt RFS ganze Container an? Ja. RFS nimmt Container mit 20 und 40 Fuß, Komplettladungen (FTL), Teilladungen (LTL) und Kuriersendungen an und organisiert auf Wunsch auch die Vorholung.
+- Kann RFS Discounter und Filialisten beliefern? Ja, RFS liefert an Handelspartner weiter. Die Belieferung nach festen Händlervorgaben mit Etiketten, Avis und Palettenbild ist im Aufbau.
+- Lagert RFS Kühlware oder Lebensmittel mit Kühlung? Nein. RFS hat kein Kühlhaus. Artikel mit MHD oder Seriennummer sind auf Anfrage über eine JTL Erweiterung möglich.
+- Was kostet Fulfillment bei RFS? Die Preise setzen sich aus Bausteinen zusammen: Einrichtung, Wareneingang, Lagerung pro Platz und Monat, Kommissionierung pro Auftrag und Position, Versand zum Tarif des Dienstleisters sowie ein monatlicher Mindestumsatz. Das konkrete Angebot gibt es nach dem Logistik Check.
+- Wo liegt das Lager von RFS? In Viersen am Niederrhein (NRW), rund 150 km von Rotterdam und Antwerpen und unter 50 km von Düsseldorf und Duisburg entfernt.
+
+## Seiten
+- [Startseite Deutsch](https://rfs-logistik.de/)
+- [English](https://rfs-logistik.de/en/)
