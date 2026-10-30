@@ -23,7 +23,7 @@ section.alt{background:var(--bg)}
 .lead{font-size:19px;max-width:760px;margin-top:18px}
 header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.82);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--ln)}
 header .w{display:flex;align-items:center;gap:28px;height:76px}
-header .logo img{height:40px;display:block}
+header .logo img{height:38px;width:auto;display:block}
 header nav{display:flex;gap:24px;margin-left:auto;font-size:15.5px;font-weight:500}
 header nav a{text-decoration:none;color:var(--sl)}
 header nav a:hover{color:var(--b)}
@@ -95,19 +95,23 @@ ul.ck li:before{content:"";position:absolute;left:3px;top:12px;width:11px;height
 .faq details[open] summary:after{content:"−"}
 .faq details p{margin-top:10px;max-width:880px}
 .contact .w{display:grid;grid-template-columns:1fr 1fr;gap:56px}
-form{background:#fff;border:1px solid var(--ln);border-radius:20px;padding:28px;display:grid;gap:12px}
+form{align-self:start;background:#fff;border:1px solid var(--ln);border-radius:20px;padding:28px;display:grid;gap:12px}
 form .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 label{font-size:13px;font-weight:600;color:var(--sl);display:grid;gap:6px}
 input,textarea{width:100%;min-width:0;font:inherit;font-size:16px;border:1px solid var(--ln);border-radius:10px;padding:12px 14px;background:var(--bg)}
 textarea{min-height:110px}
 .hp{position:absolute;left:-9999px}
 form small{font-size:12.5px;color:var(--sub)}
+.fmsg{display:none;border-radius:14px;padding:22px 24px;background:var(--bl);color:var(--d)}
+.fmsg b{display:block;font-family:'Barlow Semi Condensed',Barlow;font-size:24px;margin-bottom:6px}
+.fmsg.err{background:#FDECEC}
+form.sent>*:not(.fmsg){display:none}form.sent .fmsg.ok{display:block}
 .cdet{margin-top:28px;border-top:1px solid var(--ln)}
 .cdet div{display:grid;grid-template-columns:150px 1fr;padding:11px 0;border-bottom:1px solid var(--ln);font-size:16px}
 .cdet small{color:var(--sub);font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding-top:2px}
 footer{background:var(--d);color:#C9D0DA;padding:56px 0 34px;font-size:15px;position:relative;overflow:hidden}
 footer .w{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
-footer img{height:40px}
+footer img{height:44px;width:auto}
 footer a{color:#fff;text-decoration:none}
 footer .bot{grid-column:1/-1;border-top:1px solid #353F50;padding-top:18px;display:flex;justify-content:space-between;font-size:13.5px;color:#8E97A6}
 footer .wave{position:absolute;right:-40px;bottom:-60px;width:260px;opacity:.95}
