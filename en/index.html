@@ -206,7 +206,7 @@
  ]
 }</script>
 </head><body>
-<header><div class="w"><a class="logo" href="/en/" aria-label="RFS Startseite"><img src="/assets/img/RFS_Logo.svg" alt="RFS Rhineland Fulfillment Services, part of HEYDAY AG" width="180" height="40"></a>
+<header><div class="w"><a class="logo" href="/en/" aria-label="RFS Startseite"><img src="/assets/img/RFS_Logo_Kompakt.svg" alt="RFS Rhineland Fulfillment Services" width="111" height="40"></a>
 <nav aria-label="Hauptnavigation"><a href="#leistungen">Services</a><a href="#anbindung">Integrations</a><a href="#standort">Location</a><a href="#referenzen">Cases</a><a href="#faq">FAQ</a></nav><a class="lang" href="/" hreflang="de">DE</a><a class="btn sm" href="#kontakt">Book a logistics check</a></div></header><main>
 <section class="hero"><div class="w"><div><div class="kk">3PL provider in western Germany</div>
 <h1>The 3PL for retailers <span>who want to grow.</span></h1><p class="lead">We store, pack and ship for mid sized retailers, brands and importers who supply retail and sell to consumers. You sell, we take care of the rest.</p>
@@ -234,10 +234,16 @@
 <section class="alt contact" id="kontakt"><div class="w"><div><div class="kk">Contact</div><h2>Come and visit. <span>See where your goods will be.</span></h2><p class="lead">One hour in Viersen: see the warehouse, go through your goods, your system and your current costs. Then you get a quote you can compare with what you have today.</p>
 <div class="cdet"><div><small>Contact</small><span>Pascal Wichelhaus</span></div><div><small>Email</small><a href="mailto:office@rfs-logistik.de">office@rfs-logistik.de</a></div>
 <div><small>Phone</small><span>+49 2162 890 8618</span></div><div><small>Address</small><span>Rhineland Fulfillment Services GmbH<br>Kampweg 18, 41751 Viersen</span></div><div><small>Group</small><span>part of HEYDAY AG</span></div></div></div>
-<form action="https://formspree.io/f/xqppdbky" method="POST"><input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><div class="two"><label>Name<input name="name" required autocomplete="name"></label><label>Company<input name="firma" autocomplete="organization"></label></div>
+<form id="kf" action="https://formspree.io/f/xqppdbky" method="POST"><input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><div class="two"><label>Name<input name="name" required autocomplete="name"></label><label>Company<input name="firma" autocomplete="organization"></label></div>
 <div class="two"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Phone<input type="tel" name="tel" autocomplete="tel"></label></div>
 <label>What do you store and ship today?<textarea name="nachricht"></textarea></label>
-<button class="btn" type="submit">Request a logistics check</button><small>By submitting you agree to the processing of your data according to our privacy policy.</small></form></div></section></main>
-<footer><div class="w"><div><img src="/assets/img/RFS_Logo_Negativ.svg" alt="RFS" width="180" height="40" loading="lazy"><p style="color:#AEB6C2;margin-top:16px;max-width:360px">3PL provider in western Germany. Warehousing, fulfillment and shipping for retailers, brands and importers.</p></div>
+<button class="btn" type="submit">Request a logistics check</button><small>By submitting you agree to the processing of your data according to our privacy policy.</small>
+<div class="fmsg ok" role="status"><b>Thank you, we have your request.</b>We will get back to you personally shortly.</div><div class="fmsg err" role="alert"><b>That did not work.</b>Please try again or email office@rfs-logistik.de.</div></form>
+<script>
+(function(){var f=document.getElementById('kf');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var btn=f.querySelector('button');btn.disabled=true;btn.textContent='Sending …';
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}}).then(function(r){if(r.ok){f.classList.add('sent');f.reset();}else{throw new Error();}})
+.catch(function(){f.querySelector('.fmsg.err').style.display='block';btn.disabled=false;btn.textContent='Request a logistics check';});});})();
+</script></div></section></main>
+<footer><div class="w"><div><img src="/assets/img/RFS_Logo_Kompakt_Negativ.svg" alt="RFS" width="111" height="40" loading="lazy"><p style="color:#AEB6C2;margin-top:16px;max-width:360px">3PL provider in western Germany. Warehousing, fulfillment and shipping for retailers, brands and importers.</p></div>
 <div><a href="#leistungen">Services</a><br><a href="#anbindung">Integrations</a><br><a href="#standort">Location</a><br><a href="#referenzen">Cases</a><br><a href="#faq">FAQ</a></div><div>Rhineland Fulfillment Services GmbH<br>Kampweg 18<br>41751 Viersen<br><a href="mailto:office@rfs-logistik.de">office@rfs-logistik.de</a></div>
 <div class="bot"><span>© 2026 Rhineland Fulfillment Services GmbH · part of HEYDAY AG</span><span><a href="/impressum/">Imprint</a> · <a href="/datenschutz/">Privacy</a></span></div></div></footer></body></html>
